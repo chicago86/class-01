@@ -1,0 +1,95 @@
+body {
+  background-color: #e8e8e8;
+  font-size: 14px;
+  color: #000305;
+  font-family: "Trebuchet MS", sans-serif;
+  line-height: 1.4;
+  margin: 0;
+}
+
+a {
+  color: #c74350;
+  /* text-decoration: none; */
+}
+a:hover {
+  color: white;
+  background-color: #c74350;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+}
+.ba-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.ba-logo {
+  display: block;
+  font-size: 34px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.ba-logo:hover {
+  background: none;
+  color: #c74350;
+}
+.ba-logo span {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.ba-section {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.ba-fautered-title {
+  color: #c74350;
+  margin: 0;
+}
+.ba-post-tile,
+.ba-feature-post-title {
+  margin: 0;
+  font-weight: 400;
+}
+.ba-post-tile a {
+  text-decoration: none;
+  margin: 0;
+}
+.ba-feature-post-title {
+  font-size: 24px;
+}
+.ba-feature-post-title a {
+  text-decoration: none;
+  color: black;
+}
+.ba-feature-post-title a:hover {
+  color: #ffffff;
+}
+.ba-post > :last-child {
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  max-width: 185px;
+  padding: 5px;
+}
+li a:hover {
+  background-color: #c74350;
+}
